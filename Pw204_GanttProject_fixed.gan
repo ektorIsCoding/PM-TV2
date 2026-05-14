@@ -1,0 +1,787 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="Pw204 CargoCare - P2026011 + P2026012 integrated Gantt" company="CargoCare project group" webLink="http://" view-date="2026-06-01" view-index="0" gantt-divider-location="522" resource-divider-location="300" version="3.3.3322" locale="es_ES">
+    <description>This planning contains one single detailed GANTT chart for both CargoCare projects:
+
+- FA-COR-FRE-02-CACARE_P2026011: Purchase two shunting locomotives
+- FA-COR-ISC-02-CACARE_P2026012: Build branch line for Juberri Ale
+
+The plan includes phases, milestones, detailed tasks, dependencies, visible human resource assignments and notes for slack/float, holidays and critical constraints.
+
+Corrected version: natural-day waits are modelled as fixed milestones/notes, the FA holiday period is kept only in the project calendar, preparation precedes kick-off, missing dependencies and resource overloads have been corrected.</description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="260" order="0" />
+        <field id="tpd4" name="Fecha de inicio" width="130" order="1" />
+        <field id="tpd5" name="Fecha de fin" width="131" order="2" />
+        <field id="tpd15" name="Notas" width="20" order="3" />
+        <option id="filter.completedTasks" value="false" />
+        <option id="filter.dueTodayTasks" value="false" />
+        <option id="filter.overdueTasks" value="false" />
+        <option id="filter.inProgressTodayTasks" value="false" />
+        <option id="color.recent">#00ff00</option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="199" order="0" />
+        <field id="1" name="Función" width="82" order="1" />
+    </view>
+    <calendars base-id="Ninguna">
+        <day-types>
+            <day-type id="0" />
+            <day-type id="1" />
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" />
+            <only-show-weekends value="false" />
+            <overriden-day-types />
+            <days />
+        </day-types>
+        <date year="2026" month="8" date="3" type="HOLIDAY" />
+        <date year="2026" month="8" date="4" type="HOLIDAY" />
+        <date year="2026" month="8" date="5" type="HOLIDAY" />
+        <date year="2026" month="8" date="6" type="HOLIDAY" />
+        <date year="2026" month="8" date="7" type="HOLIDAY" />
+        <date year="2026" month="8" date="8" type="HOLIDAY" />
+        <date year="2026" month="8" date="9" type="HOLIDAY" />
+        <date year="2026" month="8" date="10" type="HOLIDAY" />
+        <date year="2026" month="8" date="11" type="HOLIDAY" />
+        <date year="2026" month="8" date="12" type="HOLIDAY" />
+        <date year="2026" month="8" date="13" type="HOLIDAY" />
+        <date year="2026" month="8" date="14" type="HOLIDAY" />
+        <date year="2026" month="8" date="15" type="HOLIDAY" />
+        <date year="2026" month="8" date="16" type="HOLIDAY" />
+        <date year="2026" month="8" date="17" type="HOLIDAY" />
+        <date year="2026" month="8" date="18" type="HOLIDAY" />
+        <date year="2026" month="8" date="19" type="HOLIDAY" />
+        <date year="2026" month="8" date="20" type="HOLIDAY" />
+        <date year="2026" month="8" date="21" type="HOLIDAY" />
+        <date year="2026" month="12" date="21" type="HOLIDAY" />
+        <date year="2026" month="12" date="22" type="HOLIDAY" />
+        <date year="2026" month="12" date="23" type="HOLIDAY" />
+        <date year="2026" month="12" date="24" type="HOLIDAY" />
+        <date year="2026" month="12" date="25" type="HOLIDAY" />
+        <date year="2026" month="12" date="26" type="HOLIDAY" />
+        <date year="2026" month="12" date="27" type="HOLIDAY" />
+        <date year="2026" month="12" date="28" type="HOLIDAY" />
+        <date year="2026" month="12" date="29" type="HOLIDAY" />
+        <date year="2026" month="12" date="30" type="HOLIDAY" />
+        <date year="2026" month="12" date="31" type="HOLIDAY" />
+        <date year="2027" month="1" date="1" type="HOLIDAY" />
+        <date year="2027" month="1" date="2" type="HOLIDAY" />
+        <date year="2027" month="1" date="3" type="HOLIDAY" />
+        <date year="2027" month="1" date="4" type="HOLIDAY" />
+        <date year="2027" month="1" date="5" type="HOLIDAY" />
+        <date year="2027" month="1" date="6" type="HOLIDAY" />
+        <date year="2027" month="4" date="22" type="HOLIDAY" />
+        <date year="2027" month="4" date="23" type="HOLIDAY" />
+        <date year="2027" month="4" date="24" type="HOLIDAY" />
+        <date year="2027" month="4" date="25" type="HOLIDAY" />
+        <date year="2027" month="4" date="26" type="HOLIDAY" />
+        <date year="2027" month="4" date="27" type="HOLIDAY" />
+        <date year="2027" month="4" date="28" type="HOLIDAY" />
+        <date year="2027" month="4" date="29" type="HOLIDAY" />
+        <date year="2027" month="8" date="7" type="HOLIDAY" />
+        <date year="2027" month="8" date="8" type="HOLIDAY" />
+        <date year="2027" month="8" date="9" type="HOLIDAY" />
+        <date year="2027" month="8" date="10" type="HOLIDAY" />
+        <date year="2027" month="8" date="11" type="HOLIDAY" />
+        <date year="2027" month="8" date="12" type="HOLIDAY" />
+        <date year="2027" month="8" date="13" type="HOLIDAY" />
+        <date year="2027" month="8" date="14" type="HOLIDAY" />
+        <date year="2027" month="8" date="15" type="HOLIDAY" />
+        <date year="2027" month="8" date="16" type="HOLIDAY" />
+        <date year="2027" month="8" date="17" type="HOLIDAY" />
+        <date year="2027" month="8" date="18" type="HOLIDAY" />
+        <date year="2027" month="8" date="19" type="HOLIDAY" />
+        <date year="2027" month="8" date="20" type="HOLIDAY" />
+        <date year="2027" month="8" date="21" type="HOLIDAY" />
+        <date year="2027" month="8" date="22" type="HOLIDAY" />
+        <date year="2027" month="8" date="23" type="HOLIDAY" />
+        <date year="2027" month="8" date="24" type="HOLIDAY" />
+        <date year="2027" month="8" date="25" type="HOLIDAY" />
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon" />
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon" />
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon" />
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text" />
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date" />
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date" />
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int" />
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int" />
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text" />
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text" />
+        </taskproperties>
+        <task id="0" uid="ad2b61ced40c464aa4a56f02618ca095" name="CACARE - CargoCare integrated planning" meeting="false" start="2026-05-27" duration="1" complete="0" expand="true">
+            <notes>One single detailed Gantt chart for both projects.</notes>
+            <task id="1" uid="a93c3307a56b4ff292c43aed17a92525" name="P2026011 - Purchase two shunting locomotives" meeting="false" start="2026-05-27" duration="1" complete="0" expand="true">
+                <notes>FA-COR-FRE-02-CACARE_P2026011</notes>
+                <task id="2" uid="f96a48f66f7342e091416b84cf80cdf2" name="M-PSL-KO - P2026011 kick-off meeting" meeting="true" start="2026-06-01" duration="0" complete="0" expand="true" color="#00ff00">
+                    <notes>Mandatory kick-off meeting on 01/06/2026. The final plan and SWOT revision are completed before the meeting.</notes>
+                    <depend id="6" type="2" difference="0" hardness="Strong" />
+                </task>
+                <task id="3" uid="ed4461ac7b984d8d8eca501b15079cee" name="PSLPRE - Preparation" meeting="false" start="2026-05-27" duration="1" complete="0" expand="true">
+                    <notes>Preparation work is scheduled before the formal kick-off so the kick-off meeting can present the planning and SWOT results.</notes>
+                    <task id="4" uid="f7e104c9526640c49beb47a56f7daad7" name="PSLPRE.1 - Final planning version" meeting="false" start="2026-05-27" duration="1" complete="0" expand="true" />
+                    <task id="5" uid="805b4f7eaa9e4e4790b3d15ee1d70f23" name="PSLPRE.2 - Final SWOT revision" meeting="false" start="2026-05-28" duration="1" complete="0" expand="true">
+                        <depend id="4" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="6" uid="ad0b47bd82774ac0aed8fff2243a7c18" name="PSLPRE.3 - Kick-off presentation preparation" meeting="false" start="2026-05-29" duration="1" complete="0" expand="true">
+                        <depend id="5" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="7" uid="7a90ceaf3cf8440c8025c3e03a60ce36" name="PSLPRE.4 - CargoCare synchronization" meeting="false" start="2026-06-01" duration="1" complete="0" expand="true">
+                        <depend id="2" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="8" uid="02e7fe5799d348249da66fa236636a57" name="PSLRFI - Request for information" meeting="false" start="2026-06-02" duration="1" complete="0" expand="true">
+                    <task id="9" uid="052ef676bfbd4b7682f5c5e64f8d998b" name="PSLRFI.1 - Find possible providers" meeting="false" start="2026-06-02" duration="1" complete="0" expand="true">
+                        <notes>At least 6 providers in Europe.</notes>
+                        <depend id="7" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="10" uid="5e17b974b5d84a21b4c7ea4b4a05c142" name="PSLRFI.2 - Create formal inquiry document" meeting="false" start="2026-06-03" duration="1" complete="0" expand="true">
+                        <depend id="9" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="11" uid="7cda1c1370274b4bb9360eb2dcb17a8c" name="PSLRFI.3 - Send inquiry to providers" meeting="false" start="2026-06-04" duration="1" complete="0" expand="true">
+                        <depend id="10" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="12" uid="50bb1832680a43b395ea317e6b1873ce" name="M-PSL-RFI-DEADLINE - RFI answers received (10 natural days)" meeting="true" start="2026-06-14" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>Fixed calendar milestone: 10 natural days after sending the RFI on 04/06/2026. Do not model this as 10 working days in GanttProject.</notes>
+                    </task>
+                    <task id="13" uid="d98a500571f1414a9d62d7e2654b641a" name="PSLRFI.4 - Analyze reactions and select candidate list" meeting="false" start="2026-06-15" duration="1" complete="0" expand="true">
+                        <notes>0.5 day of analysis/final selection. Scheduled on the first working day after the 10-natural-day RFI deadline.</notes>
+                        <depend id="12" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="14" uid="63e8bb53c05c40519d0882bae3d01a64" name="PSLRFP - Request for proposal" meeting="false" start="2026-06-16" duration="1" complete="0" expand="true">
+                    <task id="15" uid="1984a3a5be764124ae31789eefa66202" name="PSLRFP.1 - Technical chapter" meeting="false" start="2026-06-16" duration="3" complete="0" expand="true">
+                        <depend id="13" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="16" uid="a7ac9e929be74c65a6241b0d125590c5" name="PSLRFP.2 - Legal chapter" meeting="false" start="2026-06-16" duration="1" complete="0" expand="true">
+                        <depend id="13" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="17" uid="d33c278ec9c84eacadb0355aeb70e37f" name="PSLRFP.3 - Financial appendix" meeting="false" start="2026-06-16" duration="2" complete="0" expand="true">
+                        <depend id="13" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="18" uid="b7ff96bb65664093bfbf3e237a1d7398" name="PSLRFP.4 - Board authorization request preparation" meeting="false" start="2026-06-19" duration="1" complete="0" expand="true">
+                        <depend id="15" type="2" difference="0" hardness="Strong" />
+                        <depend id="16" type="2" difference="0" hardness="Strong" />
+                        <depend id="17" type="2" difference="0" hardness="Strong" />
+                        <notes>Purchase amount &gt; 200,000 EUR, Board authorization required.</notes>
+                    </task>
+                    <task id="19" uid="e3ee8dd751044a5588126e6aa0b94b20" name="PSLRFP.W - Wait for Board meeting" meeting="false" start="2026-06-22" duration="7" complete="0" expand="true">
+                        <notes>Board meets on first working day of the month.</notes>
+                        <depend id="18" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="20" uid="dfb997189e3544cf84c237c09ef2642e" name="M-PSL-RFP-BOARD - RFP authorization granted by Board" meeting="true" start="2026-07-01" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>RFP authorization milestone.</notes>
+                        <depend id="19" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="21" uid="7c7e576f9101465e8a93d752ec433b94" name="PSLRFP.5 - Candidate provider selection" meeting="false" start="2026-07-01" duration="2" complete="0" expand="true">
+                        <depend id="20" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="22" uid="d1ca3d54555d4f44a6a6880ca25286e0" name="PSLRFP.6 - Send RFPs to providers" meeting="false" start="2026-07-03" duration="1" complete="0" expand="true">
+                        <depend id="21" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="23" uid="ae70a378353248b5b6f5374d4d173bbe" name="M-PSL-RFP-DEADLINE - Proposals received (15 natural days)" meeting="true" start="2026-07-18" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>Fixed calendar milestone: 15 natural days after RFP sending on 03/07/2026. Official opening is planned the next working day, 20/07/2026.</notes>
+                    </task>
+                </task>
+                <task id="24" uid="ab0ea3ded116493aae7845c98ad85e73" name="PSLPAN - Proposal analysis" meeting="false" start="2026-07-20" duration="1" complete="0" expand="true">
+                    <task id="25" uid="bda64e460d894d1b871b1f4406737104" name="PSLPAN.1 - Organize official opening event" meeting="false" start="2026-07-20" duration="2" complete="0" expand="true">
+                        <depend id="23" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="26" uid="effeb0cdd9894ad9bdaf1a41774bee44" name="PSLPAN.2 - Analyze proposals" meeting="false" start="2026-07-21" duration="5" complete="0" expand="true">
+                        <depend id="25" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="27" uid="0c1e84c71d784f32b74ce850e3bf3d71" name="PSLSEL - Provider selection" meeting="false" start="2026-07-27" duration="1" complete="0" expand="true">
+                    <task id="28" uid="bc16a25184db489e9c0202f5d0ce2d00" name="PSLSEL.1 - Select final provider" meeting="false" start="2026-07-28" duration="1" complete="0" expand="true">
+                        <depend id="26" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="29" uid="0fe5fdd587b54a47ba3285960a761f09" name="PSLSEL.2 - Create purchase proposal" meeting="false" start="2026-07-29" duration="1" complete="0" expand="true">
+                        <depend id="28" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="30" uid="2d753c5acdf8499680bc4c6b3afd8ae1" name="PSLSEL.W - Wait for advanced August Board meeting" meeting="false" start="2026-07-29" duration="1" complete="0" expand="true">
+                        <notes>August Board meeting advanced to 30/07/2026 due to FA summer holidays.</notes>
+                        <depend id="29" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="31" uid="6b5ae07fd51e49e9a6f6b2bf0d46305a" name="M-PSL-SEL-BOARD - Purchase proposal authorized by Board" meeting="true" start="2026-07-30" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>Critical Board authorization milestone.</notes>
+                        <depend id="30" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="32" uid="c6ed802c99ab423ab01a2f26bd12d8b5" name="PSLORD - Purchase order" meeting="false" start="2026-07-31" duration="1" complete="0" expand="true">
+                    <task id="33" uid="15360a918b494ca8a8994d2aa4dfc4b3" name="PSLORD.1 - Communicate award decision to all candidates" meeting="false" start="2026-07-31" duration="1" complete="0" expand="true">
+                        <notes>Decision communicated after Board authorization. This covers the formal award communication step.</notes>
+                        <depend id="31" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="34" uid="f4f607901834443f8cf4d4b9682aa80b" name="PSLORD.2 - Send purchase order to selected provider" meeting="false" start="2026-07-31" duration="2" complete="0" expand="true">
+                        <notes>Purchase order is sent within five working days after the award communication. The second working day falls after the FA summer holiday because internal FA work is suspended in the calendar.</notes>
+                        <depend id="31" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="35" uid="0846c5823306470f95cac01579a9ff7d" name="PSLORD.3 - Inform rejected candidates" meeting="false" start="2026-07-31" duration="1" complete="0" expand="true">
+                        <notes>Rejected candidates are informed in parallel with the award/order communication.</notes>
+                        <depend id="31" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="36" uid="8a16ed7b16984c8d80ba24d86a1e933c" name="M-PSL-ORDER-CONFIRMED - Provider confirms PO and delivery date" meeting="true" start="2026-08-25" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>Provider confirms the purchase order and the planned delivery date before the external manufacturing period is considered active.</notes>
+                        <depend id="34" type="2" difference="0" hardness="Strong" />
+                        <depend id="35" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="37" uid="b246110d8e84427291032fbeb90e480e" name="PSLOFU - Order follow-up" meeting="false" start="2026-08-26" duration="1" complete="0" expand="true">
+                    <task id="38" uid="fbbf7855d6cf4c2ca967a30ead051103" name="PSLOFU.1 - Follow-up meeting 1" meeting="false" start="2026-08-26" duration="2" complete="0" expand="true">
+                        <depend id="36" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="39" uid="227a2b04c9a7479a8b7e0d381ef4f2b7" name="PSLOFU.2 - Follow-up meeting 2" meeting="false" start="2026-09-09" duration="2" complete="0" expand="true">
+                        <depend id="38" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="135" uid="0ed7ca2902d04424b2c3848ec6b20f5e" name="PSLOFU.3 - Follow-up meeting 3" meeting="false" start="2026-09-23" duration="2" complete="0" expand="true">
+                        <notes>Third provider follow-up meeting; part of the 8 effort-days planned for order follow-up.</notes>
+                        <depend id="39" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="136" uid="5ebf1d33bffd4e95b8f16b5c83c9fefb" name="PSLOFU.4 - Follow-up meeting 4" meeting="false" start="2026-10-07" duration="2" complete="0" expand="true">
+                        <notes>Fourth provider follow-up meeting; total planned follow-up effort = 4 meetings x 2 days = 8 days.</notes>
+                        <depend id="135" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="40" uid="0e01dbb9b0af4b9a87cd592bd21fdea9" name="M-PSL-LOCOMOTIVES-READY - Provider manufacturing completed (55 natural days)" meeting="true" start="2026-10-19" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>Fixed external calendar milestone: 55 natural days from 25/08/2026. The provider is not interrupted by FA holidays; do not model this as 55 working days.</notes>
+                        <depend id="36" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="41" uid="ca72f76b68194349a1153f1a8ce43d4f" name="PSLOFU.T - Rail transport to Andorra la Vella" meeting="false" start="2026-10-19" duration="5" complete="0" expand="true">
+                        <notes>Five-day rail transport after manufacturing. This interval falls on working days in the FA calendar.</notes>
+                        <depend id="40" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="42" uid="5b0f1a91ea49403d8596f1e67e077382" name="PSLDEL - Delivery" meeting="false" start="2026-10-26" duration="1" complete="0" expand="true">
+                    <task id="43" uid="56468426821c4d7ca7506c63a9466447" name="PSLDEL.1 - Locomotive 1 acceptance" meeting="false" start="2026-10-26" duration="2" complete="0" expand="true">
+                        <depend id="41" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="44" uid="d6a765a9b7494c3a81414e2913a02dcb" name="PSLDEL.2 - Locomotive 2 acceptance" meeting="false" start="2026-10-28" duration="2" complete="0" expand="true">
+                        <depend id="43" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="45" uid="d9a6cb7f2a4c46d3bfd17684cfa12038" name="PSLDEL.3 - Issue fixing and verification" meeting="false" start="2026-10-30" duration="4" complete="0" expand="true">
+                        <depend id="44" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="46" uid="89de181803fe410685885ece1de9d374" name="M-PSL-DELIVERED - Locomotives accepted" meeting="true" start="2026-11-04" duration="0" complete="0" expand="true" color="#00ff00">
+                        <depend id="45" type="2" difference="0" hardness="Strong" />
+                        <notes>Required for P2026012 test drives.</notes>
+                    </task>
+                </task>
+                <task id="47" uid="5bf70e402e1d4c6a873c70a02c8eb3be" name="PSLTRN - Training" meeting="false" start="2026-11-05" duration="1" complete="0" expand="true">
+                    <task id="48" uid="951160949c1541189a4b4566c5d324b4" name="PSLTRN.1 - Organize driver training" meeting="false" start="2026-11-05" duration="5" complete="0" expand="true">
+                        <depend id="46" type="2" difference="0" hardness="Strong" />
+                        <notes>Actual training session is outside this project.</notes>
+                    </task>
+                    <task id="49" uid="93d9234375da4707a838a054748afa2b" name="M-PSL-TRAINED - Drivers ready for test drives" meeting="true" start="2026-11-11" duration="0" complete="0" expand="true" color="#00ff00">
+                        <depend id="48" type="2" difference="0" hardness="Strong" />
+                        <notes>Required for P2026012 test drives.</notes>
+                    </task>
+                </task>
+                <task id="50" uid="54d3d017cb844e2aa34d2acd1d01ee4b" name="PSLCLO - Closure" meeting="false" start="2026-11-12" duration="1" complete="0" expand="true">
+                    <task id="51" uid="6ea50974e76b4513a77659d262af076d" name="PSLCLO.1 - Final KPI calculation and interpretation" meeting="false" start="2026-11-12" duration="1" complete="0" expand="true">
+                        <depend id="49" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="52" uid="f90bc6eff6f84789b37f893ab71210c1" name="PSLCLO.2 - End report creation" meeting="false" start="2026-11-13" duration="2" complete="0" expand="true">
+                        <depend id="51" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="53" uid="35ac01262f904986aa0e3ae04b6cba7d" name="PSLCLO.3 - Debriefing with CargoCare group" meeting="false" start="2026-11-17" duration="1" complete="0" expand="true">
+                        <depend id="52" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="54" uid="8a541026a8b2495da26239b23b5e5e7e" name="M-PSL-CLOSED - P2026011 closed" meeting="true" start="2026-11-17" duration="0" complete="0" expand="true" color="#00ff00">
+                        <depend id="53" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+            </task>
+            <task id="55" uid="88302dfbf1134806a14eb02a2e578198" name="P2026012 - Build branch line for Juberri Ale" meeting="false" start="2026-06-04" duration="1" complete="0" expand="true">
+                <notes>FA-COR-ISC-02-CACARE_P2026012</notes>
+                <task id="56" uid="c58291a990754c8f98c1307035199541" name="M-BJA-KO - P2026012 kick-off meeting" meeting="true" start="2026-06-09" duration="0" complete="0" expand="true" color="#00ff00">
+                    <notes>Mandatory kick-off meeting on 09/06/2026. The final plan, KPI definition and SWOT revision are completed before the meeting.</notes>
+                    <depend id="60" type="2" difference="0" hardness="Strong" />
+                </task>
+                <task id="57" uid="9e9893f9388943758b1a6ef1cd6a8620" name="BJAPRE - Preparation" meeting="false" start="2026-06-04" duration="1" complete="0" expand="true">
+                    <notes>Preparation work is scheduled before the formal kick-off so the kick-off meeting can present the planning, KPI and SWOT results.</notes>
+                    <task id="58" uid="506123109c0244bcb364d906bb94c48b" name="BJAPRE.1 - Final planning version" meeting="false" start="2026-06-04" duration="1" complete="0" expand="true" />
+                    <task id="59" uid="e3845677d1054aa3b1b673c1924adf4d" name="BJAPRE.2 - KPI definition" meeting="false" start="2026-06-05" duration="1" complete="0" expand="true">
+                        <depend id="58" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="60" uid="80c9db44561b4d6991d42ed2eafdab0d" name="BJAPRE.3 - Final SWOT revision" meeting="false" start="2026-06-08" duration="1" complete="0" expand="true">
+                        <depend id="59" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="61" uid="bd74eeeffb0c45aba7902b9af9655a5b" name="BJAPRE.4 - CargoCare synchronization" meeting="false" start="2026-06-09" duration="1" complete="0" expand="true">
+                        <depend id="56" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="62" uid="37adfd0c27b7431b9ab612a1d30466fe" name="BJASIP - Site preparation" meeting="false" start="2026-07-01" duration="1" complete="0" expand="true">
+                    <task id="63" uid="56352af73e514af78cd852664fda3d11" name="BJASIP.1 - Install railway traffic warning signs" meeting="false" start="2026-07-01" duration="2" complete="0" expand="true">
+                        <notes>Cannot start before 01/07/2026.</notes>
+                    </task>
+                    <task id="64" uid="14676e687f5e49528c6dca8c2e9d52fb" name="BJASIP.W - 24h adaptation period" meeting="false" start="2026-07-03" duration="1" complete="0" expand="true">
+                        <notes>Mandatory 24h adaptation period after installation of safety warning signs. No other site work starts before this period has passed.</notes>
+                        <depend id="63" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="65" uid="a14db3db3481499ea2b5309274cf7b15" name="BJASIP.2 - Transport gravel and sand to site" meeting="false" start="2026-07-06" duration="2" complete="0" expand="true">
+                        <depend id="64" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="66" uid="421cd8b8d1bd46f186d371b75ed7e2cf" name="BJASIP.3 - Remove vegetation" meeting="false" start="2026-07-06" duration="3" complete="0" expand="true">
+                        <depend id="64" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="67" uid="a328f4a3450441e1b036cf7c9177444c" name="BJASIP.4 - Land leveling and conditioning" meeting="false" start="2026-07-09" duration="2" complete="0" expand="true">
+                        <depend id="65" type="2" difference="0" hardness="Strong" />
+                        <depend id="66" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="68" uid="5bd44829f22a4ee9b18687739e40b562" name="BJASIP.5 - Build temporary gravel access road" meeting="false" start="2026-07-08" duration="3" complete="0" expand="true">
+                        <depend id="65" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="69" uid="1c361f02af5e46eba054059383b2ff42" name="M-BJA-SITE-READY - Site preparation completed" meeting="true" start="2026-07-10" duration="0" complete="0" expand="true" color="#00ff00">
+                        <depend id="67" type="2" difference="0" hardness="Strong" />
+                        <depend id="68" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="70" uid="c2a2721170af4c69822d56b0b4edd75c" name="BJAPLB - Platform building" meeting="false" start="2026-07-13" duration="1" complete="0" expand="true">
+                    <task id="71" uid="69a0b5e8c16d46d7ae4fd1bfef6ece42" name="BJAPLB.1E - Transport materials for east platform" meeting="false" start="2026-07-13" duration="1" complete="0" expand="true">
+                        <depend id="69" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="72" uid="b7e5206443b44510a197bdc66f628cf5" name="BJAPLB.2E - Order concrete for east platform" meeting="false" start="2026-07-13" duration="1" complete="0" expand="true">
+                        <depend id="69" type="2" difference="0" hardness="Strong" />
+                        <notes>Concrete must be ordered 3 working days before delivery.</notes>
+                    </task>
+                    <task id="73" uid="c73aff419d65460a833a26bb554abe45" name="BJAPLB.3E - East platform formwork and steel mats" meeting="false" start="2026-07-14" duration="3" complete="0" expand="true">
+                        <depend id="71" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="74" uid="94e2e0b14730439c8bdf806922b10dfe" name="BJAPLB.4E - East platform concrete delivery milestone" meeting="true" start="2026-07-17" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>Concrete delivery and pouring are planned on the same working day; the order was placed three working days before delivery.</notes>
+                        <depend id="72" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="75" uid="91f301c7152a4b7d9ee13b686c4b6caf" name="BJAPLB.5E - East platform concrete pouring" meeting="false" start="2026-07-17" duration="1" complete="0" expand="true">
+                        <depend id="73" type="2" difference="0" hardness="Strong" />
+                        <depend id="74" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="76" uid="959d61f39e574befaa60c674cada4149" name="M-BJAPLB-E-CURED - East platform concrete cured (4 natural days)" meeting="true" start="2026-07-21" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>Fixed technical calendar milestone: 4 natural days after pouring, not 4 FA working days.</notes>
+                        <depend id="75" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="77" uid="4c04b3ad09ad4674a775a43b31bc8aea" name="BJAPLB.7E - East platform formwork removal" meeting="false" start="2026-07-21" duration="2" complete="0" expand="true">
+                        <depend id="76" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="78" uid="e967171be73740d8944e901b2462b2f0" name="BJAPLB.8E - East platform lamp posts installation" meeting="false" start="2026-07-23" duration="1" complete="0" expand="true">
+                        <depend id="76" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="79" uid="4af67482464e49aea467c719a6ae6bca" name="BJAPLB.9E - East platform completion" meeting="false" start="2026-07-24" duration="2" complete="0" expand="true">
+                        <depend id="77" type="2" difference="0" hardness="Strong" />
+                        <depend id="78" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="80" uid="93e05b1e2e6c43c2a1058656e77ffe89" name="BJAPLB.1W - Transport materials for west platform" meeting="false" start="2026-07-14" duration="1" complete="0" expand="true">
+                        <depend id="71" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="81" uid="b4403778dd3d4b98a1fd32c626e78793" name="BJAPLB.2W - Order concrete for west platform" meeting="false" start="2026-07-14" duration="1" complete="0" expand="true">
+                        <notes>Separate concrete order. Ordered earlier than the minimum 3 working days and delivery is planned after the required interval from the east platform delivery.</notes>
+                        <depend id="72" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="82" uid="a5904dcc7ca3407eb55dfaceca4b3b84" name="BJAPLB.3W - West platform formwork and steel mats" meeting="false" start="2026-07-15" duration="3" complete="0" expand="true">
+                        <depend id="80" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="83" uid="43377879f0374275840cbe18cb4b6916" name="BJAPLB.4W - West platform concrete delivery milestone" meeting="true" start="2026-07-22" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>Concrete delivery for one platform only. Date respects at least two working days between the east and west concrete deliveries.</notes>
+                        <depend id="81" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="84" uid="19335f861bc6417b9ca459dcc3397334" name="BJAPLB.5W - West platform concrete pouring" meeting="false" start="2026-07-22" duration="1" complete="0" expand="true">
+                        <depend id="82" type="2" difference="0" hardness="Strong" />
+                        <depend id="83" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="85" uid="3d4f6f7d0dc34e429611bbf25e7786ce" name="M-BJAPLB-W-CURED - West platform concrete cured (4 natural days)" meeting="true" start="2026-07-27" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>Technical curing period is 4 natural days after pouring; removal/lamp tasks start on the next FA working day.</notes>
+                        <depend id="84" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="86" uid="c4d4d95d67cc4f0d9ae622088d4a7d7a" name="BJAPLB.7W - West platform formwork removal" meeting="false" start="2026-07-27" duration="2" complete="0" expand="true">
+                        <depend id="85" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="87" uid="9cb4456fa2a1495b8cc18c7eda67e2e4" name="BJAPLB.8W - West platform lamp posts installation" meeting="false" start="2026-07-29" duration="1" complete="0" expand="true">
+                        <depend id="85" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="88" uid="141eade84959497da3e9c5c0bc7f1b91" name="BJAPLB.9W - West platform completion" meeting="false" start="2026-07-30" duration="2" complete="0" expand="true">
+                        <depend id="86" type="2" difference="0" hardness="Strong" />
+                        <depend id="87" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="89" uid="e4d778df922a4e54abf5f7cb5bfa5bf7" name="M-BJA-PLATFORMS - Platforms completed" meeting="true" start="2026-07-31" duration="0" complete="0" expand="true" color="#00ff00">
+                        <depend id="79" type="2" difference="0" hardness="Strong" />
+                        <depend id="88" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="90" uid="bf50b6d5c41d4270af821a074e67b14b" name="BJACOM - Communications" meeting="false" start="2026-08-24" duration="1" complete="0" expand="true">
+                    <task id="91" uid="235ee5cafa674ecd83f02467508ad387" name="BJACOM.1 - Prepare press conference" meeting="false" start="2026-08-24" duration="1" complete="0" expand="true">
+                        <depend id="89" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="92" uid="4fa7600509bb4d138c1a64a3448b9462" name="BJACOM.2 - Press conference at track laying start" meeting="false" start="2026-08-25" duration="1" complete="0" expand="true">
+                        <depend id="91" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="93" uid="54844f248b5248eea9f0863ca697ce4e" name="BJACOM.3 - RTVA reportage during test drive 3" meeting="false" start="2026-11-18" duration="1" complete="0" expand="true">
+                        <notes>RTVA reportage is scheduled on the same day as BJATST.4 (test drive 3). Linked to the previous no-test day because the reportage must run concurrently with the test, not after it.</notes>
+                        <depend id="124" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="94" uid="c9b3419326cc45aab560732cdf8de960" name="BJACOM.4 - RTVA evening broadcast coordination" meeting="false" start="2026-11-19" duration="1" complete="0" expand="true">
+                        <depend id="93" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="95" uid="1e0376c69fcf411db6197db77f3efd5e" name="BJATRB - Track building" meeting="false" start="2026-08-24" duration="1" complete="0" expand="true">
+                    <task id="137" uid="26e084927dec4caabaae41e6c01643ed" name="BJATRB.MAT - Transport track, turnout and signal materials by rail to site" meeting="false" start="2026-07-31" duration="1" complete="0" expand="true">
+                        <notes>Materials are in stock at the shunting yard; transport by rail to the site is planned before track construction starts after the FA summer holiday.</notes>
+                        <depend id="89" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="96" uid="25dc96b2f8e04fb2887128e02e90d31e" name="BJATRB.0 - Weather forecast consultation" meeting="false" start="2026-08-24" duration="1" complete="0" expand="true">
+                        <notes>If negative advice due to severe weather, postpone maximum 3 working days.</notes>
+                        <depend id="137" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="97" uid="bfcf0c07de134f47a2579edf8b2927cf" name="BJATRB.1 - Install alternate traffic using AW" meeting="false" start="2026-08-24" duration="1" complete="0" expand="true">
+                        <depend id="96" type="2" difference="0" hardness="Strong" />
+                        <notes>Alternate traffic max 48h.</notes>
+                    </task>
+                    <task id="98" uid="2ee96958ad84460bb86a3c413c6f87ee" name="BJATRB.2 - Install TO151a in AE" meeting="false" start="2026-08-25" duration="1" complete="0" expand="true">
+                        <depend id="97" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="99" uid="8bb6edf83962401ebe62fc42bf916361" name="M-BJATRB-TO151A-LOCKED - TO151a locked to straight position" meeting="true" start="2026-08-25" duration="0" complete="0" expand="true" color="#00ff00">
+                        <notes>Locking is treated as a milestone at the end of TO151a integration to keep alternate traffic within the 48h limit.</notes>
+                        <depend id="98" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="100" uid="81a1b908439c406dbd5a5ca79af50f43" name="BJATRB.N1 - Resume normal traffic for 3 working days" meeting="false" start="2026-08-26" duration="3" complete="0" expand="true">
+                        <notes>Mandatory normal traffic period of 3 working days before next track interruption.</notes>
+                        <depend id="99" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="138" uid="124e31f9cf314e3ab2aac6c509d45860" name="BJATRB.3B - Weather forecast consultation before AW phase" meeting="false" start="2026-08-28" duration="1" complete="0" expand="true">
+                        <notes>Second weather consultation before the second main-line interruption phase.</notes>
+                        <depend id="100" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="101" uid="f8572200b21840e3abbc90eef5202dd5" name="BJATRB.4 - Install alternate traffic using AE" meeting="false" start="2026-08-31" duration="1" complete="0" expand="true">
+                        <depend id="138" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="102" uid="a2d6fdc0b1654e7c81531259b1f0c5c2" name="BJATRB.5 - Install TO151b in AW" meeting="false" start="2026-08-31" duration="1" complete="0" expand="true">
+                        <depend id="101" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="103" uid="dd9f99c383e247da8642a536d4ebfaaf" name="BJATRB.6 - Install TO142a in AW" meeting="false" start="2026-08-31" duration="1" complete="0" expand="true">
+                        <depend id="101" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="104" uid="223615df31294fa0895154d1066fd7a1" name="BJATRB.7 - Install TO141 in AW" meeting="false" start="2026-08-31" duration="1" complete="0" expand="true">
+                        <depend id="101" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="105" uid="9717acc623d54f84bc7cfc244ed18ac7" name="BJATRB.8 - Lock TO142a and TO141" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true">
+                        <depend id="103" type="2" difference="0" hardness="Strong" />
+                        <depend id="104" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="106" uid="1a185c14b52645f793e3640bfde062b0" name="BJATRB.9 - Take TO151a+b into service" meeting="false" start="2026-09-01" duration="1" complete="0" expand="true">
+                        <depend id="102" type="2" difference="0" hardness="Strong" />
+                        <depend id="105" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="107" uid="51c3f4971102443393f3f797526e046a" name="BJATRB.10 - Resume normal traffic" meeting="true" start="2026-09-01" duration="0" complete="0" expand="true" color="#00ff00">
+                        <depend id="106" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="108" uid="66665188fa2142e6b032270cdeb1391b" name="BJATRB.11 - Lay arrival track T14 including TO142b" meeting="false" start="2026-09-02" duration="4" complete="0" expand="true">
+                        <depend id="107" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="109" uid="3926b8f58c3249f5a5a4744c9a106b00" name="BJATRB.12 - Build loading tracks T91, T92 and TO901" meeting="false" start="2026-09-02" duration="5" complete="0" expand="true">
+                        <depend id="107" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="110" uid="ea0eeedbe3554d1a83aceeacddf1b7e3" name="BJATRB.13 - Install signal SN141" meeting="false" start="2026-09-09" duration="1" complete="0" expand="true">
+                        <depend id="108" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="111" uid="d626cb549818495da5cc927bcee1c2a9" name="BJATRB.14 - Install signal SN142" meeting="false" start="2026-09-10" duration="1" complete="0" expand="true">
+                        <depend id="110" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="112" uid="4d569d6a363a44c9859265019fe54ffc" name="BJATRB.15 - Install signal SN151" meeting="false" start="2026-09-11" duration="1" complete="0" expand="true">
+                        <depend id="111" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="113" uid="b45bd4017d5046a39ef332b9ea8d7107" name="BJATRB.16 - Install signal SN251" meeting="false" start="2026-09-14" duration="1" complete="0" expand="true">
+                        <depend id="112" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="114" uid="5db238047c0b4aeaab115cb9f3ce2e5a" name="BJATRB.17 - Install signal SN252" meeting="false" start="2026-09-15" duration="1" complete="0" expand="true">
+                        <depend id="113" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="115" uid="38372e7f40e04f4cb9f6fdaeab379308" name="BJATRB.18 - Install signal SN253" meeting="false" start="2026-09-16" duration="1" complete="0" expand="true">
+                        <depend id="114" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="116" uid="57246bfedc4844a597551ee225cf3732" name="BJATRB.19 - Test all track and signal elements" meeting="false" start="2026-09-17" duration="2" complete="0" expand="true">
+                        <depend id="109" type="2" difference="0" hardness="Strong" />
+                        <depend id="115" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="117" uid="9b45ee9d43154014907f35da9b5dbd5e" name="M-BJA-TRACK-READY - Track and signalling ready" meeting="true" start="2026-09-18" duration="0" complete="0" expand="true" color="#00ff00">
+                        <depend id="116" type="2" difference="0" hardness="Strong" />
+                        <notes>Branch line technically ready, but integral testing waits for locomotives and trained drivers.</notes>
+                    </task>
+                </task>
+                <task id="118" uid="4d0c6681949941e0804ede764a136d58" name="BJATST - Test drive" meeting="false" start="2026-11-02" duration="1" complete="0" expand="true">
+                    <task id="119" uid="50f16d51442d4430a3aa726723869ecb" name="BJATST.1 - Prepare complete test sequence" meeting="false" start="2026-11-02" duration="1" complete="0" expand="true">
+                        <depend id="117" type="2" difference="0" hardness="Strong" />
+                        <notes>Must be prepared 10 days before first test drive.</notes>
+                    </task>
+                    <task id="120" uid="e2894ea9c411422aa833a4b324469f63" name="BJATST.S - Slack waiting for locomotives and trained drivers" meeting="false" start="2026-11-03" duration="7" complete="0" expand="true">
+                        <notes>Float/slack: branch line is ready before locomotives and trained drivers are available. This is a non-working waiting buffer.</notes>
+                        <depend id="119" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="121" uid="eb9e034b46cd4e0394423d85e0474888" name="BJATST.2 - Test drive 1 - Deliver four wagons with locomotive 1" meeting="false" start="2026-11-12" duration="1" complete="0" expand="true">
+                        <depend id="119" type="2" difference="0" hardness="Strong" />
+                        <depend id="120" type="2" difference="0" hardness="Strong" />
+                        <depend id="49" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="122" uid="3335225876874ec0a25162697648cf79" name="BJATST.W1 - One day without test activities" meeting="false" start="2026-11-13" duration="1" complete="0" expand="true">
+                        <notes>Analysis of results / small fixes if needed.</notes>
+                        <depend id="121" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="123" uid="959dfd86be1147449694da37ffbe1f5e" name="BJATST.3 - Test drive 2 - Deliver one wagon and pick up four wagons with locomotive 2" meeting="false" start="2026-11-16" duration="1" complete="0" expand="true">
+                        <depend id="122" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="124" uid="73ead983677e47d1bed6ed94f69b556c" name="BJATST.W2 - One day without test activities" meeting="false" start="2026-11-17" duration="1" complete="0" expand="true">
+                        <notes>Analysis of results / small fixes if needed.</notes>
+                        <depend id="123" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="125" uid="e1d06d802e7d43fbaada38f0c5161251" name="BJATST.4 - Test drive 3 - Deliver one wagon and pick up one wagon with locomotive 2" meeting="false" start="2026-11-18" duration="1" complete="0" expand="true">
+                        <depend id="124" type="2" difference="0" hardness="Strong" />
+                        <notes>RTVA reportage during this test drive.</notes>
+                    </task>
+                    <task id="126" uid="419ed775049c4926bdd8f1403e54aee6" name="BJATST.W3 - One day without test activities" meeting="false" start="2026-11-19" duration="1" complete="0" expand="true">
+                        <notes>Analysis of results / small fixes if needed.</notes>
+                        <depend id="125" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="127" uid="2f515a123bd5484789c8a7bf7c802aa8" name="BJATST.5 - Test drive 4 - Deliver three wagons and pick up one wagon with locomotive 1" meeting="false" start="2026-11-20" duration="1" complete="0" expand="true">
+                        <depend id="126" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="128" uid="bc0d5cd3f99d4ed28eab034f6a44edbc" name="M-BJA-TESTS-OK - Test drives completed" meeting="true" start="2026-11-20" duration="0" complete="0" expand="true" color="#00ff00">
+                        <depend id="127" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+                <task id="129" uid="ccebe4c729b947f581b55125b9c03580" name="BJACLO - Closure" meeting="false" start="2026-11-23" duration="1" complete="0" expand="true">
+                    <task id="130" uid="38e3af4b7db54fdf923d9706f03b7a52" name="BJACLO.1 - Final KPI calculation and interpretation" meeting="false" start="2026-11-23" duration="2" complete="0" expand="true">
+                        <depend id="128" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="131" uid="eccab6a44a814afea5cbe9a221c5aa05" name="BJACLO.2 - End report creation" meeting="false" start="2026-11-25" duration="3" complete="0" expand="true">
+                        <depend id="130" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="132" uid="9a786ce3831f466a9ba02a90a882432b" name="BJACLO.3 - Debriefing with CargoCare group" meeting="false" start="2026-11-30" duration="1" complete="0" expand="true">
+                        <depend id="131" type="2" difference="0" hardness="Strong" />
+                    </task>
+                    <task id="133" uid="4d860ac761424be4b4afcfbb38aa3a97" name="M-BJA-CLOSED - P2026012 closed" meeting="true" start="2026-11-30" duration="0" complete="0" expand="true" color="#00ff00">
+                        <depend id="132" type="2" difference="0" hardness="Strong" />
+                    </task>
+                </task>
+            </task>
+            <task id="134" uid="471f9a97e5664b31bf8f4a47b54afe8c" name="M-CACARE-END - Both projects completed" meeting="true" start="2026-11-30" duration="0" complete="0" expand="true" color="#00ff00">
+                <notes>Both projects completed before required CargoCare service date 01/12/2027.</notes>
+                <depend id="54" type="2" difference="0" hardness="Strong" />
+                <depend id="133" type="2" difference="0" hardness="Strong" />
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="RHMNG1" function="1" contacts="" phone="" />
+        <resource id="1" name="RHMNG2" function="1" contacts="" phone="" />
+        <resource id="2" name="RHFIN1" function="2" contacts="" phone="" />
+        <resource id="3" name="RHPUR1" function="3" contacts="" phone="" />
+        <resource id="4" name="RHPUR2" function="3" contacts="" phone="" />
+        <resource id="5" name="RHPUR3" function="3" contacts="" phone="" />
+        <resource id="6" name="RHCON1" function="4" contacts="" phone="" />
+        <resource id="7" name="RHCON2" function="4" contacts="" phone="" />
+        <resource id="8" name="RHCON3" function="4" contacts="" phone="" />
+        <resource id="9" name="RHCON4" function="4" contacts="" phone="" />
+        <resource id="10" name="RHCON5" function="4" contacts="" phone="" />
+        <resource id="11" name="RHCON6" function="4" contacts="" phone="" />
+        <resource id="12" name="RHTRA1" function="5" contacts="" phone="" />
+        <resource id="13" name="RHTRA2" function="5" contacts="" phone="" />
+        <resource id="14" name="RHTRA3" function="5" contacts="" phone="" />
+        <resource id="15" name="RHTRA4" function="5" contacts="" phone="" />
+        <resource id="16" name="RHTRA5" function="5" contacts="" phone="" />
+        <resource id="17" name="RHTRA6" function="5" contacts="" phone="" />
+        <resource id="18" name="RHITG1" function="6" contacts="" phone="" />
+        <resource id="19" name="RHDRV1" function="7" contacts="" phone="" />
+        <resource id="20" name="RHDRV2" function="7" contacts="" phone="" />
+        <resource id="21" name="RHTRC1" function="8" contacts="" phone="" />
+        <resource id="22" name="RHTRU1" function="9" contacts="" phone="" />
+        <resource id="23" name="RHTRU2" function="9" contacts="" phone="" />
+        <resource id="24" name="RHCOM1" function="10" contacts="" phone="" />
+        <resource id="25" name="RHRRH1" function="11" contacts="" phone="" />
+        <resource id="26" name="RHQUA1" function="12" contacts="" phone="" />
+        <resource id="27" name="RHQUA2" function="12" contacts="" phone="" />
+        <resource id="28" name="RHQUA3" function="12" contacts="" phone="" />
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="4" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="5" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="6" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="7" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="9" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="10" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="10" resource-id="3" function="3" responsible="false" load="100.0" />
+        <allocation task-id="11" resource-id="3" function="3" responsible="false" load="50.0" />
+        <allocation task-id="13" resource-id="0" function="1" responsible="false" load="50.0" />
+        <allocation task-id="13" resource-id="3" function="3" responsible="false" load="50.0" />
+        <allocation task-id="15" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="16" resource-id="3" function="3" responsible="false" load="100.0" />
+        <allocation task-id="17" resource-id="2" function="2" responsible="false" load="100.0" />
+        <allocation task-id="18" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="18" resource-id="3" function="3" responsible="false" load="100.0" />
+        <allocation task-id="21" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="21" resource-id="3" function="3" responsible="false" load="100.0" />
+        <allocation task-id="22" resource-id="3" function="3" responsible="false" load="100.0" />
+        <allocation task-id="25" resource-id="5" function="3" responsible="false" load="100.0" />
+        <allocation task-id="25" resource-id="4" function="3" responsible="false" load="100.0" />
+        <allocation task-id="26" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="26" resource-id="2" function="2" responsible="false" load="100.0" />
+        <allocation task-id="26" resource-id="3" function="3" responsible="false" load="100.0" />
+        <allocation task-id="28" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="28" resource-id="3" function="3" responsible="false" load="100.0" />
+        <allocation task-id="28" resource-id="2" function="2" responsible="false" load="100.0" />
+        <allocation task-id="29" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="29" resource-id="3" function="3" responsible="false" load="100.0" />
+        <allocation task-id="33" resource-id="3" function="3" responsible="false" load="100.0" />
+        <allocation task-id="35" resource-id="5" function="3" responsible="false" load="100.0" />
+        <allocation task-id="38" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="39" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="43" resource-id="19" function="7" responsible="false" load="100.0" />
+        <allocation task-id="43" resource-id="26" function="12" responsible="false" load="100.0" />
+        <allocation task-id="43" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="44" resource-id="20" function="7" responsible="false" load="100.0" />
+        <allocation task-id="44" resource-id="26" function="12" responsible="false" load="100.0" />
+        <allocation task-id="44" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="45" resource-id="26" function="12" responsible="false" load="100.0" />
+        <allocation task-id="45" resource-id="19" function="7" responsible="false" load="100.0" />
+        <allocation task-id="45" resource-id="20" function="7" responsible="false" load="100.0" />
+        <allocation task-id="48" resource-id="25" function="11" responsible="false" load="100.0" />
+        <allocation task-id="51" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="52" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="53" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="53" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="56" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="58" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="59" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="60" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="61" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="63" resource-id="6" function="4" responsible="false" load="100.0" />
+        <allocation task-id="63" resource-id="7" function="4" responsible="false" load="100.0" />
+        <allocation task-id="63" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="65" resource-id="22" function="9" responsible="false" load="100.0" />
+        <allocation task-id="65" resource-id="23" function="9" responsible="false" load="100.0" />
+        <allocation task-id="66" resource-id="6" function="4" responsible="false" load="100.0" />
+        <allocation task-id="66" resource-id="7" function="4" responsible="false" load="100.0" />
+        <allocation task-id="66" resource-id="8" function="4" responsible="false" load="100.0" />
+        <allocation task-id="67" resource-id="6" function="4" responsible="false" load="100.0" />
+        <allocation task-id="67" resource-id="7" function="4" responsible="false" load="100.0" />
+        <allocation task-id="67" resource-id="8" function="4" responsible="false" load="100.0" />
+        <allocation task-id="68" resource-id="9" function="4" responsible="false" load="100.0" />
+        <allocation task-id="68" resource-id="10" function="4" responsible="false" load="100.0" />
+        <allocation task-id="68" resource-id="11" function="4" responsible="false" load="100.0" />
+        <allocation task-id="71" resource-id="22" function="9" responsible="false" load="100.0" />
+        <allocation task-id="71" resource-id="6" function="4" responsible="false" load="100.0" />
+        <allocation task-id="72" resource-id="7" function="4" responsible="false" load="100.0" />
+        <allocation task-id="73" resource-id="6" function="4" responsible="false" load="100.0" />
+        <allocation task-id="73" resource-id="7" function="4" responsible="false" load="100.0" />
+        <allocation task-id="73" resource-id="8" function="4" responsible="false" load="100.0" />
+        <allocation task-id="75" resource-id="6" function="4" responsible="false" load="100.0" />
+        <allocation task-id="75" resource-id="7" function="4" responsible="false" load="100.0" />
+        <allocation task-id="75" resource-id="8" function="4" responsible="false" load="100.0" />
+        <allocation task-id="77" resource-id="6" function="4" responsible="false" load="100.0" />
+        <allocation task-id="77" resource-id="7" function="4" responsible="false" load="100.0" />
+        <allocation task-id="78" resource-id="8" function="4" responsible="false" load="100.0" />
+        <allocation task-id="78" resource-id="18" function="6" responsible="false" load="100.0" />
+        <allocation task-id="79" resource-id="6" function="4" responsible="false" load="100.0" />
+        <allocation task-id="79" resource-id="7" function="4" responsible="false" load="100.0" />
+        <allocation task-id="80" resource-id="22" function="9" responsible="false" load="100.0" />
+        <allocation task-id="80" resource-id="9" function="4" responsible="false" load="100.0" />
+        <allocation task-id="81" resource-id="10" function="4" responsible="false" load="100.0" />
+        <allocation task-id="82" resource-id="9" function="4" responsible="false" load="100.0" />
+        <allocation task-id="82" resource-id="10" function="4" responsible="false" load="100.0" />
+        <allocation task-id="82" resource-id="11" function="4" responsible="false" load="100.0" />
+        <allocation task-id="84" resource-id="9" function="4" responsible="false" load="100.0" />
+        <allocation task-id="84" resource-id="10" function="4" responsible="false" load="100.0" />
+        <allocation task-id="84" resource-id="11" function="4" responsible="false" load="100.0" />
+        <allocation task-id="86" resource-id="9" function="4" responsible="false" load="100.0" />
+        <allocation task-id="86" resource-id="10" function="4" responsible="false" load="100.0" />
+        <allocation task-id="87" resource-id="11" function="4" responsible="false" load="100.0" />
+        <allocation task-id="87" resource-id="18" function="6" responsible="false" load="100.0" />
+        <allocation task-id="88" resource-id="9" function="4" responsible="false" load="100.0" />
+        <allocation task-id="88" resource-id="10" function="4" responsible="false" load="100.0" />
+        <allocation task-id="91" resource-id="24" function="10" responsible="false" load="100.0" />
+        <allocation task-id="92" resource-id="24" function="10" responsible="false" load="100.0" />
+        <allocation task-id="92" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="93" resource-id="24" function="10" responsible="false" load="100.0" />
+        <allocation task-id="94" resource-id="24" function="10" responsible="false" load="100.0" />
+        <allocation task-id="96" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="97" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="97" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="98" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="98" resource-id="13" function="5" responsible="false" load="100.0" />
+        <allocation task-id="101" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="102" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="102" resource-id="13" function="5" responsible="false" load="100.0" />
+        <allocation task-id="103" resource-id="14" function="5" responsible="false" load="100.0" />
+        <allocation task-id="103" resource-id="15" function="5" responsible="false" load="100.0" />
+        <allocation task-id="104" resource-id="16" function="5" responsible="false" load="100.0" />
+        <allocation task-id="104" resource-id="17" function="5" responsible="false" load="100.0" />
+        <allocation task-id="105" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="106" resource-id="13" function="5" responsible="false" load="100.0" />
+        <allocation task-id="106" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="108" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="108" resource-id="13" function="5" responsible="false" load="100.0" />
+        <allocation task-id="108" resource-id="14" function="5" responsible="false" load="100.0" />
+        <allocation task-id="109" resource-id="15" function="5" responsible="false" load="100.0" />
+        <allocation task-id="109" resource-id="16" function="5" responsible="false" load="100.0" />
+        <allocation task-id="109" resource-id="17" function="5" responsible="false" load="100.0" />
+        <allocation task-id="110" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="110" resource-id="18" function="6" responsible="false" load="100.0" />
+        <allocation task-id="110" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="111" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="111" resource-id="18" function="6" responsible="false" load="100.0" />
+        <allocation task-id="111" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="112" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="112" resource-id="18" function="6" responsible="false" load="100.0" />
+        <allocation task-id="112" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="113" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="113" resource-id="18" function="6" responsible="false" load="100.0" />
+        <allocation task-id="113" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="114" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="114" resource-id="18" function="6" responsible="false" load="100.0" />
+        <allocation task-id="114" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="115" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="115" resource-id="18" function="6" responsible="false" load="100.0" />
+        <allocation task-id="115" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="116" resource-id="26" function="12" responsible="false" load="100.0" />
+        <allocation task-id="116" resource-id="27" function="12" responsible="false" load="100.0" />
+        <allocation task-id="116" resource-id="12" function="5" responsible="false" load="100.0" />
+        <allocation task-id="116" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="119" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="121" resource-id="19" function="7" responsible="false" load="100.0" />
+        <allocation task-id="121" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="121" resource-id="26" function="12" responsible="false" load="100.0" />
+        <allocation task-id="123" resource-id="20" function="7" responsible="false" load="100.0" />
+        <allocation task-id="123" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="123" resource-id="26" function="12" responsible="false" load="100.0" />
+        <allocation task-id="125" resource-id="20" function="7" responsible="false" load="100.0" />
+        <allocation task-id="125" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="125" resource-id="26" function="12" responsible="false" load="100.0" />
+        <allocation task-id="127" resource-id="19" function="7" responsible="false" load="100.0" />
+        <allocation task-id="127" resource-id="21" function="8" responsible="false" load="100.0" />
+        <allocation task-id="127" resource-id="26" function="12" responsible="false" load="100.0" />
+        <allocation task-id="130" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="130" resource-id="26" function="12" responsible="false" load="100.0" />
+        <allocation task-id="131" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="132" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="132" resource-id="1" function="1" responsible="false" load="100.0" />
+        <allocation task-id="34" resource-id="4" function="3" responsible="false" load="100.0" />
+        <allocation task-id="135" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="136" resource-id="0" function="1" responsible="false" load="100.0" />
+        <allocation task-id="137" resource-id="17" function="5" responsible="false" load="100.0" />
+        <allocation task-id="137" resource-id="20" function="7" responsible="false" load="100.0" />
+        <allocation task-id="138" resource-id="1" function="1" responsible="false" load="100.0" />
+    </allocations>
+    <vacations />
+    <previous />
+    <roles roleset-name="Default" />
+    <roles>
+        <role id="1" name="RHMNG - Project management" />
+        <role id="2" name="RHFIN - Financial support" />
+        <role id="3" name="RHPUR - Purchase dept." />
+        <role id="4" name="RHCON - Construction" />
+        <role id="5" name="RHTRA - Track laying" />
+        <role id="6" name="RHITG - IS/IT group" />
+        <role id="7" name="RHDRV - Train drivers, AKA engineers" />
+        <role id="8" name="RHTRC - Traffic control" />
+        <role id="9" name="RHTRU - Truck drivers" />
+        <role id="10" name="RHCOM - Commercial dept." />
+        <role id="11" name="RHRRH - Human resources dept." />
+        <role id="12" name="RHQUA - Quality control" />
+    </roles>
+</project>
